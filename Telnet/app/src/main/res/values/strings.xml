@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Telnet</string>
+    <string name="action_settings">Settings</string>
+    <string name="connect">Connect</string>
+    <string name="hostname_label">Hostname</string>
+    <string name="port_label">Port</string>
+    <string name="port_number">port number</string>
+    <string name="hostname_ip_address">hostname/IP</string>
+</resources>

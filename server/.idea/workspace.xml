@@ -15,7 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3170b2-06a1-4a58-885c-7dac82a9e9a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Telnet/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/Telnet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/Telnet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/TerminalActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/TerminalActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/res/layout/content_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +56,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.profiler" />
   </component>
   <component name="RunManager">
     <configuration name="server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="server" TARGET_NAME="server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="server" RUN_TARGET_NAME="server">
@@ -78,6 +88,12 @@
       <option name="presentableId" value="Default" />
       <updated>1579119713518</updated>
       <workItem from="1579119715423" duration="5057000" />
+      <workItem from="1579212421675" duration="468000" />
+      <workItem from="1579214638099" duration="1155000" />
+      <workItem from="1579216830185" duration="748000" />
+      <workItem from="1579258470768" duration="6978000" />
+      <workItem from="1579271202084" duration="6679000" />
+      <workItem from="1579281793424" duration="2652000" />
     </task>
     <servers />
   </component>
@@ -89,30 +105,69 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2632" y="409" width="485" height="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579123718825" />
+    <state x="3294" y="793" key="FileChooserDialogImpl" timestamp="1579262804978">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3294" y="793" key="FileChooserDialogImpl/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579262804978" />
     <state x="2735" y="435" key="Github.ShareDialog" timestamp="1579123933165">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2735" y="435" key="Github.ShareDialog/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579123933165" />
-    <state width="1874" height="98" key="GridCell.Tab.0.bottom" timestamp="1579124869536">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1294" height="72" key="GridCell.Tab.0.bottom" timestamp="1579284644761">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1294" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579284644761" />
     <state width="1874" height="98" key="GridCell.Tab.0.bottom/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
-    <state width="1874" height="98" key="GridCell.Tab.0.center" timestamp="1579124869536">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="93" key="GridCell.Tab.0.bottom/0.29.1920.1051@0.29.1920.1051" timestamp="1579220054682" />
+    <state width="1314" height="226" key="GridCell.Tab.0.bottom/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
+    <state width="1294" height="72" key="GridCell.Tab.0.center" timestamp="1579284644759">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1294" height="72" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579284644759" />
     <state width="1874" height="98" key="GridCell.Tab.0.center/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
-    <state width="1874" height="98" key="GridCell.Tab.0.left" timestamp="1579124869536">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="93" key="GridCell.Tab.0.center/0.29.1920.1051@0.29.1920.1051" timestamp="1579220054681" />
+    <state width="1314" height="226" key="GridCell.Tab.0.center/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
+    <state width="1294" height="72" key="GridCell.Tab.0.left" timestamp="1579284644757">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1294" height="72" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579284644757" />
     <state width="1874" height="98" key="GridCell.Tab.0.left/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
-    <state width="1874" height="98" key="GridCell.Tab.0.right" timestamp="1579124869536">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="93" key="GridCell.Tab.0.left/0.29.1920.1051@0.29.1920.1051" timestamp="1579220054681" />
+    <state width="1314" height="226" key="GridCell.Tab.0.left/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
+    <state width="1294" height="72" key="GridCell.Tab.0.right" timestamp="1579284644760">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1294" height="72" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579284644760" />
     <state width="1874" height="98" key="GridCell.Tab.0.right/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
-    <state x="2540" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1579131937360">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="93" key="GridCell.Tab.0.right/0.29.1920.1051@0.29.1920.1051" timestamp="1579220054682" />
+    <state width="1314" height="226" key="GridCell.Tab.0.right/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
+    <state width="1314" height="226" key="GridCell.Tab.1.bottom" timestamp="1579279289908">
+      <screen x="2560" y="0" width="3840" height="2160" />
     </state>
+    <state width="1314" height="226" key="GridCell.Tab.1.bottom/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
+    <state width="1314" height="226" key="GridCell.Tab.1.center" timestamp="1579279289908">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1314" height="226" key="GridCell.Tab.1.center/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
+    <state width="1314" height="226" key="GridCell.Tab.1.left" timestamp="1579279289908">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1314" height="226" key="GridCell.Tab.1.left/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
+    <state width="1314" height="226" key="GridCell.Tab.1.right" timestamp="1579279289908">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1314" height="226" key="GridCell.Tab.1.right/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
+    <state x="2991" y="688" key="SettingsEditor" timestamp="1579262808532">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2991" y="688" key="SettingsEditor/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579262808532" />
+    <state x="616" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1579281814519">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="331" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579281814519" />
     <state x="2540" y="367" key="com.intellij.ide.util.TipDialog/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579131937360" />
+    <state x="620" y="386" key="com.intellij.ide.util.TipDialog/0.29.1920.1051@0.29.1920.1051" timestamp="1579216830665" />
+    <state x="3796" y="698" key="com.intellij.ide.util.TipDialog/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579271208119" />
     <state x="2544" y="232" width="662" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579119752544">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

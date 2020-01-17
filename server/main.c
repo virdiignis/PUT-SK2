@@ -4,9 +4,17 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/wait.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <stdio.h>
 
 void child_suicide(int signo) {
     wait(NULL);
+    printf("Child suicide\n");
+}
+
+int fd_is_valid(int fd) {
+    return fcntl(fd, F_GETFD) != -1 || errno != EBADF;
 }
 
 int main() {
@@ -32,18 +40,25 @@ int main() {
         if (pid) {
             close(cfd);
         } else {
+            close(fd);
             dup2(cfd, 1);
             char buf[256] = {0};
             int e = 0;
             do {
                 e = read(cfd, buf, 256);
-                for (int i = e - 2; i < 256; i++) buf[i] = 0;
+//                write(cfd, "No kurwaaa\n", 11);
+//                if(e>0) fprintf((FILE *) 2, "%i\n", e);
+                if (strncmp(buf, "exit", 4) == 0) {
+                    close(cfd);
+                    exit(0);
+                }
+                for (int i = e; i < 256; i++) buf[i] = 0;
                 system(buf);
-            } while (strncmp(buf, "exit", 4) != 0);
-            close(cfd);
+                write(cfd, "\n", 1);
+            } while (1);
             exit(0);
         }
-        close(fd);
     }
+    close(fd);
     return 0;
 }

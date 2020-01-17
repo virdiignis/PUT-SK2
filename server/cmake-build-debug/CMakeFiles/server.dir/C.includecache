@@ -7,24 +7,22 @@
 #IncludeRegexTransform: 
 
 /home/gbryk/CLionProjects/PUT-SK2/server/main.c
-arpa/inet.h
--
-netdb.h
--
 netinet/in.h
 -
 sys/socket.h
 -
-sys/types.h
--
 unistd.h
--
-stdio.h
 -
 string.h
 -
 stdlib.h
 -
 sys/wait.h
+-
+fcntl.h
+-
+errno.h
+-
+stdio.h
 -
 

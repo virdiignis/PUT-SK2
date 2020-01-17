@@ -10,11 +10,6 @@
 
 void child_suicide(int signo) {
     wait(NULL);
-    printf("Child suicide\n");
-}
-
-int fd_is_valid(int fd) {
-    return fcntl(fd, F_GETFD) != -1 || errno != EBADF;
 }
 
 int main() {
@@ -46,8 +41,6 @@ int main() {
             int e = 0;
             do {
                 e = read(cfd, buf, 256);
-//                write(cfd, "No kurwaaa\n", 11);
-//                if(e>0) fprintf((FILE *) 2, "%i\n", e);
                 if (strncmp(buf, "exit", 4) == 0) {
                     close(cfd);
                     exit(0);

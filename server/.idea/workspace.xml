@@ -15,15 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3170b2-06a1-4a58-885c-7dac82a9e9a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Telnet/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/Telnet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/Telnet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/TerminalActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/TerminalActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +84,7 @@
       <workItem from="1579216830185" duration="748000" />
       <workItem from="1579258470768" duration="6978000" />
       <workItem from="1579271202084" duration="6679000" />
-      <workItem from="1579281793424" duration="2652000" />
+      <workItem from="1579281793424" duration="2719000" />
     </task>
     <servers />
   </component>
@@ -113,31 +104,31 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2735" y="435" key="Github.ShareDialog/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579123933165" />
-    <state width="1294" height="72" key="GridCell.Tab.0.bottom" timestamp="1579284644761">
+    <state width="1294" height="72" key="GridCell.Tab.0.bottom" timestamp="1579285143002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579284644761" />
+    <state width="1294" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579285143002" />
     <state width="1874" height="98" key="GridCell.Tab.0.bottom/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
     <state width="1874" height="93" key="GridCell.Tab.0.bottom/0.29.1920.1051@0.29.1920.1051" timestamp="1579220054682" />
     <state width="1314" height="226" key="GridCell.Tab.0.bottom/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
-    <state width="1294" height="72" key="GridCell.Tab.0.center" timestamp="1579284644759">
+    <state width="1294" height="72" key="GridCell.Tab.0.center" timestamp="1579285143001">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="72" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579284644759" />
+    <state width="1294" height="72" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579285143001" />
     <state width="1874" height="98" key="GridCell.Tab.0.center/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
     <state width="1874" height="93" key="GridCell.Tab.0.center/0.29.1920.1051@0.29.1920.1051" timestamp="1579220054681" />
     <state width="1314" height="226" key="GridCell.Tab.0.center/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
-    <state width="1294" height="72" key="GridCell.Tab.0.left" timestamp="1579284644757">
+    <state width="1294" height="72" key="GridCell.Tab.0.left" timestamp="1579285142999">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="72" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579284644757" />
+    <state width="1294" height="72" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579285142999" />
     <state width="1874" height="98" key="GridCell.Tab.0.left/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
     <state width="1874" height="93" key="GridCell.Tab.0.left/0.29.1920.1051@0.29.1920.1051" timestamp="1579220054681" />
     <state width="1314" height="226" key="GridCell.Tab.0.left/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
-    <state width="1294" height="72" key="GridCell.Tab.0.right" timestamp="1579284644760">
+    <state width="1294" height="72" key="GridCell.Tab.0.right" timestamp="1579285143002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="72" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579284644760" />
+    <state width="1294" height="72" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579285143002" />
     <state width="1874" height="98" key="GridCell.Tab.0.right/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
     <state width="1874" height="93" key="GridCell.Tab.0.right/0.29.1920.1051@0.29.1920.1051" timestamp="1579220054682" />
     <state width="1314" height="226" key="GridCell.Tab.0.right/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />

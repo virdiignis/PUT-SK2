@@ -52,7 +52,6 @@ class Telnet(private val host: String, private val port: Int) : Thread() {
             } else {
                 sleep(100)
             }
-            sleep(100)
             if (!queue.isEmpty()) {
                 Log.d("telnet", "sending message to net")
                 val message = queue.poll()!!

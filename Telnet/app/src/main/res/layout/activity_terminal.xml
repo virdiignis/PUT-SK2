@@ -19,7 +19,34 @@
         android:textIsSelectable="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commandText" />
+
+    <EditText
+        android:id="@+id/commandText"
+        android:layout_width="317dp"
+        android:layout_height="40dp"
+        android:background="#D2000000"
+        android:ems="10"
+        android:hint="Command..."
+        android:inputType="textNoSuggestions"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#81FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sendCommandButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#79000000"
+        android:backgroundTintMode="add"
+        android:text="Send"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/terminalText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/commandText"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

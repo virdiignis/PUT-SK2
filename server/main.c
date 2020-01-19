@@ -45,7 +45,6 @@ int main() {
             int e = 0;
             do {
                 e = read(cfd, buf, 256);
-                printf("Read");
                 if (strncmp(buf, "exit", 4) == 0) {
                     fclose(bash);
                     close(cfd);
@@ -54,6 +53,7 @@ int main() {
                 for (int i = e; i < 256; i++) buf[i] = 0;
                 fprintf(bash, "%s\n", buf);
                 fflush(bash);
+                write(cfd, "\n", 1);
             } while (1);
             exit(0);
         }

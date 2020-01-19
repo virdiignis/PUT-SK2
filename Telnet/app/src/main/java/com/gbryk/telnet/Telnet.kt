@@ -63,6 +63,7 @@ class Telnet(private val host: String, private val port: Int) : Thread() {
     }
 
     fun close() {
+        connection?.getOutputStream()?.write("exit".toByteArray(US_ASCII))
         connection?.close()
     }
 }

@@ -4,8 +4,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/wait.h>
-#include <fcntl.h>
-#include <errno.h>
 #include <stdio.h>
 
 void child_suicide(int signo) {
@@ -34,6 +32,8 @@ int main() {
         int pid = fork();
         if (pid) {
             close(cfd);
+            printf("Process created\n");
+            fflush(stdout);
         } else {
             close(fd);
             dup2(cfd, 1);
@@ -45,6 +45,7 @@ int main() {
             int e = 0;
             do {
                 e = read(cfd, buf, 256);
+                if (e == -1) break;
                 if (strncmp(buf, "exit", 4) == 0) {
                     fclose(bash);
                     close(cfd);
@@ -55,6 +56,8 @@ int main() {
                 fflush(bash);
                 write(cfd, "\n", 1);
             } while (1);
+            close(cfd);
+            fclose(bash);
             exit(0);
         }
     }

@@ -29,7 +29,7 @@
         android:background="#D2000000"
         android:ems="10"
         android:hint="Command..."
-        android:inputType="textNoSuggestions"
+        android:inputType="textVisiblePassword"
         android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
         android:textColorHint="#81FFFFFF"

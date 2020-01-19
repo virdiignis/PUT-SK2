@@ -1,10 +1,7 @@
 package com.gbryk.telnet
 
 import android.util.Log
-import java.io.DataInputStream
 import java.io.DataOutputStream
-import java.io.InputStream
-import java.io.InputStreamReader
 import java.lang.Exception
 import java.net.Socket
 import java.util.*
@@ -29,7 +26,7 @@ class Telnet(private val host: String, private val port: Int) : Thread() {
 
     override fun run() {
         connection = Socket(host, port)
-        connection!!.soTimeout = 1000
+        connection!!.soTimeout = 200
         val dataOutputStream = DataOutputStream(connection!!.getOutputStream())
         val inputStream = connection!!.getInputStream()
         val bufferedReader = inputStream.bufferedReader()

@@ -16,12 +16,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-
         connection_button.setOnClickListener { startTelnet() }
     }
 
     private fun startTelnet() {
-        val i = Intent(this@MainActivity, TerminalActivity::class.java)
+        val i = Intent(applicationContext, TerminalActivity::class.java)
         i.putExtra("host", host_field.text.toString())
         i.putExtra("port", port_field.text.toString().toInt())
         startActivity(i)

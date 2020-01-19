@@ -19,10 +19,6 @@ stdlib.h
 -
 sys/wait.h
 -
-fcntl.h
--
-errno.h
--
 stdio.h
 -
 

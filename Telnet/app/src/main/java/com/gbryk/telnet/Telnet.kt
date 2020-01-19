@@ -13,6 +13,7 @@ class Telnet(private val host: String, private val port: Int) : Thread() {
     private var received: String? = null
     private val queue: Queue<String> = LinkedBlockingQueue<String>()
     var open: Boolean = false
+    var closed: Boolean = false
 
     fun send_text(text: String) {
         queue.offer(text)
@@ -31,15 +32,15 @@ class Telnet(private val host: String, private val port: Int) : Thread() {
         val inputStream = connection!!.getInputStream()
         val bufferedReader = inputStream.bufferedReader()
         open = true
-        while (!connection!!.isClosed) {
+        while (connection!!.isConnected) {
             if (inputStream.available() > 0) {
                 Log.d("telnet", "received")
                 var res = ""
-                while(true){
-                    try{
+                while (true) {
+                    try {
                         val line = bufferedReader.readLine()
                         res = res + line + "\n"
-                    } catch (e: Exception){
+                    } catch (e: Exception) {
                         break
                     }
                 }
@@ -58,12 +59,15 @@ class Telnet(private val host: String, private val port: Int) : Thread() {
             }
         }
         open = false
+        closed = true
         dataOutputStream.close()
         inputStream.close()
     }
 
     fun close() {
-        connection?.getOutputStream()?.write("exit".toByteArray(US_ASCII))
-        connection?.close()
+        if (!connection?.isClosed!!) {
+            connection?.getOutputStream()?.write("exit".toByteArray(US_ASCII))
+            connection?.close()
+        }
     }
 }

@@ -14,10 +14,15 @@ class TerminalActivity : AppCompatActivity(), Runnable {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_terminal)
-        root = findViewById(android.R.id.content);
+        root = findViewById(android.R.id.content)
+        sendCommandButton.setOnClickListener { sendButton() }
         telnet = Telnet(intent.getStringExtra("host")!!, intent.getIntExtra("port", 2137))
         telnet!!.start()
-        sendCommandButton.setOnClickListener { sendButton() }
+    }
+
+    override fun onBackPressed() {
+        telnet?.close()
+        super.onBackPressed()
     }
 
     fun sendButton() {
@@ -39,11 +44,11 @@ class TerminalActivity : AppCompatActivity(), Runnable {
             val text = telnet?.get_text()
             if (text != null)
                 terminalText.setText(text)
-            root?.postDelayed(this, 100)
-        } else {
+        } else if (telnet!!.closed){
             finish()
             return
         }
+        root?.postDelayed(this, 100)
     }
 
     override fun finish() {

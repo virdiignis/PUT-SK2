@@ -16,10 +16,12 @@ class TerminalActivity : AppCompatActivity(), Runnable {
         setContentView(R.layout.activity_terminal)
         root = findViewById(android.R.id.content)
         sendCommandButton.setOnClickListener { sendButton() }
+        //starting telnet service in separate thread
         telnet = Telnet(intent.getStringExtra("host")!!, intent.getIntExtra("port", 2137))
         telnet!!.start()
     }
 
+    //overwrite action on back button, to safely close the connection
     override fun onBackPressed() {
         telnet?.close()
         super.onBackPressed()
@@ -39,6 +41,7 @@ class TerminalActivity : AppCompatActivity(), Runnable {
         super.onPause()
     }
 
+    //main function run by thread
     override fun run() {
         if (telnet!!.open) {
             val text = telnet?.get_text()
@@ -48,9 +51,11 @@ class TerminalActivity : AppCompatActivity(), Runnable {
             finish()
             return
         }
+        //setting thread to resume in 100ms
         root?.postDelayed(this, 100)
     }
 
+    //finish activity with safe close of connection
     override fun finish() {
         telnet?.close()
         super.finish()

@@ -15,12 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3170b2-06a1-4a58-885c-7dac82a9e9a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/Telnet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/Telnet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/TerminalActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Telnet/app/src/main/java/com/gbryk/telnet/TerminalActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/main.c.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,8 @@
       <workItem from="1579271202084" duration="6679000" />
       <workItem from="1579281793424" duration="3182000" />
       <workItem from="1579437821431" duration="3958000" />
-      <workItem from="1579457476586" duration="3693000" />
+      <workItem from="1579457476586" duration="3814000" />
+      <workItem from="1579469767442" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="działa no">
       <created>1579285228626</created>
@@ -153,37 +149,37 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2735" y="435" key="Github.ShareDialog/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579123933165" />
-    <state width="1874" height="262" key="GridCell.Tab.0.bottom" timestamp="1579461666561">
+    <state width="1874" height="262" key="GridCell.Tab.0.bottom" timestamp="1579470009069">
       <screen x="0" y="29" width="1920" height="1051" />
     </state>
     <state width="1872" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579364945266" />
     <state width="1874" height="262" key="GridCell.Tab.0.bottom/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579443860761" />
     <state width="1874" height="98" key="GridCell.Tab.0.bottom/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
-    <state width="1874" height="262" key="GridCell.Tab.0.bottom/0.29.1920.1051@0.29.1920.1051" timestamp="1579461666561" />
+    <state width="1874" height="262" key="GridCell.Tab.0.bottom/0.29.1920.1051@0.29.1920.1051" timestamp="1579470009069" />
     <state width="1314" height="226" key="GridCell.Tab.0.bottom/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
-    <state width="1874" height="262" key="GridCell.Tab.0.center" timestamp="1579461666559">
+    <state width="1874" height="262" key="GridCell.Tab.0.center" timestamp="1579470009069">
       <screen x="0" y="29" width="1920" height="1051" />
     </state>
     <state width="1872" height="72" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579364945266" />
     <state width="1874" height="262" key="GridCell.Tab.0.center/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579443860761" />
     <state width="1874" height="98" key="GridCell.Tab.0.center/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
-    <state width="1874" height="262" key="GridCell.Tab.0.center/0.29.1920.1051@0.29.1920.1051" timestamp="1579461666559" />
+    <state width="1874" height="262" key="GridCell.Tab.0.center/0.29.1920.1051@0.29.1920.1051" timestamp="1579470009069" />
     <state width="1314" height="226" key="GridCell.Tab.0.center/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
-    <state width="1874" height="262" key="GridCell.Tab.0.left" timestamp="1579461666557">
+    <state width="1874" height="262" key="GridCell.Tab.0.left" timestamp="1579470009069">
       <screen x="0" y="29" width="1920" height="1051" />
     </state>
     <state width="1872" height="72" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579364945266" />
     <state width="1874" height="262" key="GridCell.Tab.0.left/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579443860760" />
     <state width="1874" height="98" key="GridCell.Tab.0.left/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
-    <state width="1874" height="262" key="GridCell.Tab.0.left/0.29.1920.1051@0.29.1920.1051" timestamp="1579461666557" />
+    <state width="1874" height="262" key="GridCell.Tab.0.left/0.29.1920.1051@0.29.1920.1051" timestamp="1579470009069" />
     <state width="1314" height="226" key="GridCell.Tab.0.left/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
-    <state width="1874" height="262" key="GridCell.Tab.0.right" timestamp="1579461666560">
+    <state width="1874" height="262" key="GridCell.Tab.0.right" timestamp="1579470009069">
       <screen x="0" y="29" width="1920" height="1051" />
     </state>
     <state width="1872" height="72" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579364945266" />
     <state width="1874" height="262" key="GridCell.Tab.0.right/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579443860761" />
     <state width="1874" height="98" key="GridCell.Tab.0.right/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579124869536" />
-    <state width="1874" height="262" key="GridCell.Tab.0.right/0.29.1920.1051@0.29.1920.1051" timestamp="1579461666560" />
+    <state width="1874" height="262" key="GridCell.Tab.0.right/0.29.1920.1051@0.29.1920.1051" timestamp="1579470009069" />
     <state width="1314" height="226" key="GridCell.Tab.0.right/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579279289908" />
     <state width="1314" height="226" key="GridCell.Tab.1.bottom" timestamp="1579279289908">
       <screen x="2560" y="0" width="3840" height="2160" />
@@ -211,13 +207,13 @@
     <state x="1108" y="534" width="804" height="518" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579285231488" />
     <state x="769" y="415" width="800" height="540" key="Vcs.Push.Dialog.v2/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579443839458" />
     <state x="769" y="415" key="Vcs.Push.Dialog.v2/0.29.1920.1051@0.29.1920.1051" timestamp="1579461032224" />
-    <state x="620" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1579457477303">
+    <state x="620" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1579469767753">
       <screen x="0" y="29" width="1920" height="1051" />
     </state>
     <state x="616" y="331" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579281814519" />
     <state x="616" y="351" key="com.intellij.ide.util.TipDialog/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579437821512" />
     <state x="2540" y="367" key="com.intellij.ide.util.TipDialog/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579131937360" />
-    <state x="620" y="386" key="com.intellij.ide.util.TipDialog/0.29.1920.1051@0.29.1920.1051" timestamp="1579457477303" />
+    <state x="620" y="386" key="com.intellij.ide.util.TipDialog/0.29.1920.1051@0.29.1920.1051" timestamp="1579469767753" />
     <state x="3796" y="698" key="com.intellij.ide.util.TipDialog/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579271208119" />
     <state x="2544" y="232" width="662" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579119752544">
       <screen x="1920" y="0" width="1920" height="1080" />

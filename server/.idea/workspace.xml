@@ -15,7 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3170b2-06a1-4a58-885c-7dac82a9e9a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main._bak.c" beforeDir="false" afterPath="$PROJECT_DIR$/main._bak.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,7 @@
       <workItem from="1579437821431" duration="3958000" />
       <workItem from="1579457476586" duration="3814000" />
       <workItem from="1579469767442" duration="242000" />
+      <workItem from="1579519040746" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="działa no">
       <created>1579285228626</created>
@@ -207,12 +209,12 @@
     <state x="1108" y="534" width="804" height="518" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579285231488" />
     <state x="769" y="415" width="800" height="540" key="Vcs.Push.Dialog.v2/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579443839458" />
     <state x="769" y="415" key="Vcs.Push.Dialog.v2/0.29.1920.1051@0.29.1920.1051" timestamp="1579461032224" />
-    <state x="620" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1579469767753">
+    <state x="616" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1579519041910">
       <screen x="0" y="29" width="1920" height="1051" />
     </state>
     <state x="616" y="331" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579281814519" />
     <state x="616" y="351" key="com.intellij.ide.util.TipDialog/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579437821512" />
-    <state x="2540" y="367" key="com.intellij.ide.util.TipDialog/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579131937360" />
+    <state x="616" y="351" key="com.intellij.ide.util.TipDialog/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579519041910" />
     <state x="620" y="386" key="com.intellij.ide.util.TipDialog/0.29.1920.1051@0.29.1920.1051" timestamp="1579469767753" />
     <state x="3796" y="698" key="com.intellij.ide.util.TipDialog/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579271208119" />
     <state x="2544" y="232" width="662" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579119752544">

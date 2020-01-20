@@ -8,6 +8,14 @@
 #include <errno.h>
 #include <stdio.h>
 
+
+
+/*
+ * THIS FILE IS BACKUP OF OLD VERSION, NOT IMPORTANT FOR A PROJECT ANYMORE
+ */
+
+
+
 void child_suicide(int signo) {
     wait(NULL);
 }

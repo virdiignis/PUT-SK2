@@ -15,8 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3170b2-06a1-4a58-885c-7dac82a9e9a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main._bak.c" beforeDir="false" afterPath="$PROJECT_DIR$/main._bak.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1579437821431" duration="3958000" />
       <workItem from="1579457476586" duration="3814000" />
       <workItem from="1579469767442" duration="242000" />
-      <workItem from="1579519040746" duration="264000" />
+      <workItem from="1579519040746" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="działa no">
       <created>1579285228626</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579461028985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="comments">
+      <created>1579519318750</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579519318750</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,18 +136,20 @@
     <MESSAGE value="switch to popen" />
     <MESSAGE value="hopefully final" />
     <MESSAGE value="socket error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="socket error handling" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2632" y="409" width="485" height="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579123718825">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2632" y="409" width="485" height="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579123718825" />
-    <state x="981" y="259" width="849" height="821" key="CommitChangelistDialog2" timestamp="1579461028635">
-      <screen x="0" y="29" width="1920" height="1051" />
+    <state x="2901" y="236" width="849" height="821" key="CommitChangelistDialog2" timestamp="1579519318681">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="981" y="255" width="931" height="797" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1579285228513" />
     <state x="981" y="259" width="849" height="821" key="CommitChangelistDialog2/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579443835493" />
+    <state x="2901" y="236" key="CommitChangelistDialog2/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579519318681" />
     <state x="981" y="259" key="CommitChangelistDialog2/0.29.1920.1051@0.29.1920.1051" timestamp="1579461028635" />
     <state x="3294" y="793" key="FileChooserDialogImpl" timestamp="1579262804978">
       <screen x="2560" y="0" width="3840" height="2160" />
@@ -203,11 +211,12 @@
       <screen x="2560" y="0" width="3840" height="2160" />
     </state>
     <state x="2991" y="688" key="SettingsEditor/0.531.2560.1440/2560.0.3840.2160@2560.0.3840.2160" timestamp="1579262808532" />
-    <state x="769" y="415" width="800" height="540" key="Vcs.Push.Dialog.v2" timestamp="1579461032224">
-      <screen x="0" y="29" width="1920" height="1051" />
+    <state x="2689" y="397" width="800" height="540" key="Vcs.Push.Dialog.v2" timestamp="1579519320754">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1108" y="534" width="804" height="518" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579285231488" />
     <state x="769" y="415" width="800" height="540" key="Vcs.Push.Dialog.v2/0.29.1920.1051/1920.0.1920.1080@0.29.1920.1051" timestamp="1579443839458" />
+    <state x="2689" y="397" key="Vcs.Push.Dialog.v2/0.29.1920.1051/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579519320754" />
     <state x="769" y="415" key="Vcs.Push.Dialog.v2/0.29.1920.1051@0.29.1920.1051" timestamp="1579461032224" />
     <state x="616" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1579519041910">
       <screen x="0" y="29" width="1920" height="1051" />
